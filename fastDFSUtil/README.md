@@ -12,7 +12,7 @@ FastDFSUtil<Br/>
     #tracker存储的ip地址，可以有多个，以逗号分割如：<Br/>
     #127.0.0.1:22122，127.0.0.2:22122<Br/>
     fastDFS.trackerIps=127.0.0.1:22122<Br/>
-1.	FastDfsUtil<Br/>
+1.FastDfsUtil<Br/>
 --------------------
     FastDfsUtil是一个类，类中包含文件上传、下载、删除、和获取文件元信息四种方法。<Br/>
     调用方式<Br/>
@@ -68,7 +68,7 @@ FastDFSUtil<Br/>
     NameValuePair[] 返回类型<Br/>
     抛出:<Br/>
     AppException<Br/>
-2. FileUtils<Br/>
+2.FileUtils<Br/>
 ------------
 2.1 byte2File<Br/>
 -----------------
