@@ -1,4 +1,5 @@
 FastDFSUtil<Br/>
+===========
     fastDFSUtil是一个为fastDFSUtil提供的工具类。在项目中引用jar包后需要在resources下新建fastDFS.properties文件，文件配置如下：<Br/>
     #连接池最大连接数<Br/>
     fastDFS.maxPoolSize=100<Br/>
@@ -12,11 +13,13 @@ FastDFSUtil<Br/>
     #127.0.0.1:22122，127.0.0.2:22122<Br/>
     fastDFS.trackerIps=127.0.0.1:22122<Br/>
 1.	FastDfsUtil<Br/>
+--------------------
     FastDfsUtil是一个类，类中包含文件上传、下载、删除、和获取文件元信息四种方法。<Br/>
     调用方式<Br/>
         FastDfsUtil fdu = new FastDfsUtil ();<Br/>
         fdu.方法<Br/>
 1.1 upload<Br/>
+--------------------
     public String upload(String groupName, byte[] fileBytes,String extName,NameValuePair[] metaList)<Br/>
                             throws AppException<Br/>
     参数:<Br/>
@@ -31,6 +34,7 @@ FastDFSUtil<Br/>
     抛出:<Br/>
     AppException<Br/>
 1.2 downFile<Br/>
+--------------------
     public byte[] downFile(String path)<Br/>
                     throws AppException<Br/>
     参数:<Br/>
@@ -43,6 +47,7 @@ FastDFSUtil<Br/>
     AppException<Br/>
 
 1.3 deleteFile<Br/>
+--------------------
     public int deleteFile(java.lang.String path)<Br/>
                 throws AppException<Br/>
     参数:<Br/>
@@ -53,6 +58,7 @@ FastDFSUtil<Br/>
     抛出:<Br/>
     AppException<Br/>
 1.4 getNameValuePair<Br/>
+--------------------
     public  NameValuePair[] getNameValuePair(String path)<Br/>
                                                         throws AppException<Br/>
     参数:<Br/>
@@ -63,7 +69,9 @@ FastDFSUtil<Br/>
     抛出:<Br/>
     AppException<Br/>
 2. FileUtils<Br/>
+------------
 2.1 byte2File<Br/>
+-----------------
     public static void byte2File(byte[] bfile, String filePath, String fileName)<Br/>
     参数:<Br/>
     @param - bfile<Br/>
@@ -71,6 +79,7 @@ FastDFSUtil<Br/>
     @param - fileName 设定文件<Br/>
 
 2.2 file2Byte<Br/>
+--------------------
     public static byte[] file2Byte(String filePath)<Br/>
     参数:<Br/>
     @param – filePath 本地文件路径<Br/>
@@ -78,6 +87,7 @@ FastDFSUtil<Br/>
     返回:<Br/>
     byte[] 返回类型<Br/>
 2.3 byte2Input<Br/>
+--------------------
     public static final java.io.InputStream byte2Input(byte[] buf)<Br/>
     参数:<Br/>
     @param – buf 文件数组<Br/>
@@ -85,6 +95,7 @@ FastDFSUtil<Br/>
     返回:<Br/>
     InputStream 返回类型<Br/>
 2.4 input2byte<Br/>
+--------------------
     public static final byte[] input2byte(java.io.InputStream inStream)<Br/>
                                 throws java.io.IOException<Br/>
     参数:<Br/>
