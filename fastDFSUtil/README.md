@@ -1,4 +1,4 @@
-FastDFSUtil
+FastDFSUtil<Br/>
     fastDFSUtil是一个为fastDFSUtil提供的工具类。在项目中引用jar包后需要在resources下新建fastDFS.properties文件，文件配置如下：
     #连接池最大连接数
     fastDFS.maxPoolSize=100
