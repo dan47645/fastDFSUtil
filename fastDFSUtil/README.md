@@ -95,6 +95,3 @@ FastDFSUtil
     byte[] 返回类型
     抛出:
     java.io.IOException
-
-测试readme能用不
-不知道
